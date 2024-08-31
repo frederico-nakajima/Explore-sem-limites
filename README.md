@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Explore sem limites é um projeto desenvolvido nas versões mobile first e desktop.
+O Explore sem limites é um projeto desenvolvido nas versões mobile first e desktop com animações.
 
 ## 🔖 Layout
 
