@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <img alt="versão mobile iPhone 14 Pro Max do projeto" src="assets/iPhone 14 Pro Max - 1.png" width="100%">
+  <img alt="versão mobile iPhone 14 Pro Max do projeto" src="assets/iPhone 14 Pro Max - 1.png" width="50%">
 </p>
 
 <p align="center">
