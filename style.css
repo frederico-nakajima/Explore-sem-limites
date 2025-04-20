@@ -20,7 +20,7 @@ body{
 
 #app{
     max-width: 43.0rem;
-    height: 100vh;
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
 }
@@ -43,8 +43,7 @@ header #astronautaMobile:hover{
     cursor: pointer;
 }
 header h1{
-    color:var(--color-pink);
-   
+    color:var(--color-pink);   
     font-family: Mulish;
     font-size: 3.2rem;
     font-style: normal;
@@ -65,31 +64,25 @@ header p{
 }
 main{
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
-    display: flex;
-   
+    display: flex;   
     padding: 5.3rem 3.9rem;
-    flex-direction: column;
-    
+    flex-direction: column;    
     align-items: center;
-    gap: 4.9rem;
-    
+    gap: 4.9rem;    
 }
 .card{
-    width: 35.2rem;
-   
+     
     display: flex;
     padding: 2.6rem;
     flex-direction: column;
-    align-items: flex-start;
-    
+    align-items: flex-start;    
     align-self: stretch;
     border-radius: 2.0rem;
     background:var(--color-white);
     box-shadow: 0px 3.3px 1.3rem 0px rgba(0, 0, 0, 0.25);
 }
 .card img{
-    margin-bottom: 3.3rem;
-    
+    margin-bottom: 3.3rem;    
 }
 .card img:hover{
     transform: scale(1.1);
@@ -108,7 +101,6 @@ main{
 }
 .card p{
     color:var(--color-blue);
-
     font-family: Mulish;
     font-size: 1.6rem;
     font-style: normal;
@@ -118,8 +110,7 @@ main{
 
 form{
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
     gap: 2.4rem;
     padding: 7.8rem 4.0rem 6.5rem;
 }
@@ -138,16 +129,14 @@ form h1{
 
 .input-container {
     position: relative;
-    display: inline-block;
-    
+    display: inline-block;    
 }
 
 .input-container input {
     padding: 1.2rem 1.6rem 1.2rem 1.4rem; 
     width: 100%;
     height:5rem;
-    font-size: 1.6rem;
-    
+    font-size: 1.6rem;    
     border-radius: 1.6rem;
 }
 
@@ -156,18 +145,14 @@ aside form .input-container img {
     position: absolute;
     left: 0.8rem; 
     top: 50%;
-    transform: translateY(-50%);
-  
-    
+    transform: translateY(-50%);    
 }
 
 .input-container input::placeholder{
     color: var(--color-blue);
-    font-family: Mulish;
-   
+    font-family: Mulish;   
     font-style: normal;
-    font-weight: 600;
-   
+    font-weight: 600;   
     padding-left: 3.0rem;
 }
 
@@ -207,6 +192,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    width:100%;
+    
 }
 
 footer p{
@@ -235,23 +222,17 @@ header #astronautaMobile{
     display: block;
 }
 
-
-
-
   
 @media(min-width:1440px){
     #app{
         max-width: 144rem;
-        height: 100vh;
-       
+        min-height: 100vh;       
     }
-    header{
-       
+    header{       
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 10.3rem;
-        margin-right: 3rem;
-       
+        margin-right: 3rem;       
     }
 
     header #astronautaDesktop:hover{
@@ -267,7 +248,6 @@ header #astronautaMobile{
         flex-direction: column;
         align-items: flex-start;
     }
-
  
     header h1{
         color: #B52184;
@@ -275,9 +255,7 @@ header #astronautaMobile{
         font-size: 5.8rem;
         font-style: normal;
         font-weight: 900;
-        line-height: normal;
-        
-       
+        line-height: normal;      
     }
 
     header p{
@@ -307,7 +285,6 @@ header #astronautaMobile{
         flex-direction: row;
         gap: 6rem;
         padding:6.4rem 11.1rem ;
-
     }
 
     .card{
@@ -345,20 +322,15 @@ header #astronautaMobile{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
-        
-       
-
+        gap: 12.2rem
     }
 
     aside #imagemFundo{
         display: block;
     }
-    form{
-    
+    form{    
         padding: 9.5rem 9.2rem 16.4rem 10.9rem;
     }
-
     form h1{
         display: flex;
         color: var(--color-pink);
@@ -372,8 +344,7 @@ header #astronautaMobile{
         padding: 1.2rem 1.6rem 1.2rem 1.4rem; 
         width:59.2rem ;
         height:5rem;
-        font-size: 1.6rem;
-        
+        font-size: 1.6rem;        
         border-radius: 1.6rem;
     }
 
@@ -383,6 +354,11 @@ header #astronautaMobile{
 
     .luaMobile{
         display: none;
+    }
+    footer{
+        width:100%;
+        
+        
     }
 
 }
