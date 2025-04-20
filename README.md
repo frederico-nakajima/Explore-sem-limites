@@ -16,12 +16,10 @@
 <br>
 
 <p align="center">
-  <img alt="versão mobile iPhone 14 Pro Max do projeto" src="assets/iPhone 14 Pro Max - 1.png" width="50%">
+  <img alt="versão mobile iPhone 14 Pro Max do projeto" src="assets/Capa.png" width="100%">
 </p>
 
-<p align="center">
-  <img alt="versão desktop do projeto" src="assets/Desktop - 1.png" width="100%">
-</p>
+
 
 ## 🚀 Tecnologias
 
